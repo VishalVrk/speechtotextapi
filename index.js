@@ -41,5 +41,5 @@ app.post("/speech-to-text", async (req, res) => {
 });
 
 app.listen(port, () => {
-    console.log(`Server is running on http://localhost:5001`);
-});
+    console.log(`Server is running on http://localhost:${port}`);
+  });
